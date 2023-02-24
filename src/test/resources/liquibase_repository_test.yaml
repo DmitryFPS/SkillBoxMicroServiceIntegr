@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0-1
+      author: Orlov
+      changes:
+        include:
+          file: 0-init.yaml
+  - changeSet:
+      id: 0-2
+      author: Orlov
+      changes:
+        include:
+          file: 1-init.yaml
